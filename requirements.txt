@@ -1,6 +1,6 @@
 openpyxl
+xlsxwriter
+pylightxl
 xlwt
 xlsxcessive
 pyexcelerate
-xlsxwriter
-excellent

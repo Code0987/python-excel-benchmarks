@@ -68,18 +68,11 @@ RAM: 7723MB
 
 Here are the results:
 ```
-benchmark_csv                  0.026495
-benchmark_excellent            1.784107
-# SKIP benchmark_ooxml (ooxml is FUBAR)
-benchmark_openpyxl             2.897072
-benchmark_openpyxl_rows        7.025895
-benchmark_pyexcelerate         0.550225
-benchmark_xlsxcessive          1.430242
-benchmark_xlsxwriter           1.611668
-benchmark_xlwt                 1.275144
+benchmark_csv                  0.011202
+benchmark_openpyxl             0.546676
+benchmark_openpyxl_rows        0.689135
+benchmark_pyexcelerate         0.242553
+benchmark_pylightxl            0.629057
+benchmark_xlsxwriter           0.322518
+benchmark_xlwt                 0.314687 # Seems fastest among all
 ```
-
-At the moment the best is `pyexcelerate` which is advertised as built with
-speed in mind. But beware. Some of its code looks like mess (even mixed
-indentation between modules) and its ["insane optimization claim"](https://github.com/kz26/PyExcelerate/blob/0.6.1/pyexcelerate/Range.py#L7)
-looks like neat excuse for that code mess.
