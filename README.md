@@ -71,8 +71,8 @@ Here are the results:
 benchmark_csv                  0.011202
 benchmark_openpyxl             0.546676
 benchmark_openpyxl_rows        0.689135
-benchmark_pyexcelerate         0.242553
+benchmark_pyexcelerate         0.242553 # Fastest
 benchmark_pylightxl            0.629057
 benchmark_xlsxwriter           0.322518
-benchmark_xlwt                 0.314687 # Seems fastest among all
+benchmark_xlwt                 0.314687 # 2nd Fastest
 ```
