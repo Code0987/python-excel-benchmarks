@@ -1,12 +1,6 @@
 # Simple benchmark for various Excel/XLSX python libraries
 
-There is a plenty of Excel/XLSX python packages on PyPI. To name a few:
-* openpyxl
-* xlwt
-* xlsxcessive
-* xlsxwriter
-* pyexcelerate
-* excellent
+There is a plenty of Excel/XLSX python packages on PyPI.
 
 Mostly buggy, poorly documented or not maintaned anymore. These which are
 maintained seem to completely ignore problem of efficiency.
@@ -60,10 +54,7 @@ even with plain data.
 ## Findings
 I run benchmarks on my machine:
 ```
-OS: Ubuntu 14.04 trusty
-Kernel: x86_64 Linux 3.12.0-5-generic
-CPU: Intel Core2 Duo CPU E8200 @ 2.667GHz
-RAM: 7723MB
+Apple MacBook Air M1
 ```
 
 Here are the results:
